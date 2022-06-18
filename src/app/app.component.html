@@ -1,3 +1,30 @@
 <app-navbar></app-navbar>
-<app-card></app-card>
-<app-form></app-form>
+<div class="conteiner">
+    <div class="row">
+        <div class="col-4">
+            <app-card [UrlImage]="dataCard[0].UrlImage" [cardTitle]="dataCard[0].cardTitle" [description]="dataCard[0].description" [buttonText]="dataCard[0].buttonText"></app-card>
+        </div>
+        <div class="col-4">
+            <app-card [UrlImage]="dataCard[1].UrlImage" [cardTitle]="dataCard[1].cardTitle" [description]="dataCard[1].description" [buttonText]="dataCard[1].buttonText"></app-card>
+        </div>
+        <div class="col-4">
+            <app-card [UrlImage]="dataCard[2].UrlImage" [cardTitle]="dataCard[2].cardTitle" [description]="dataCard[2].description" [buttonText]="dataCard[2].buttonText"></app-card>
+        </div>
+        <div class="col-4">
+            <app-card [UrlImage]="dataCard[3].UrlImage" [cardTitle]="dataCard[3].cardTitle" [description]="dataCard[3].description" [buttonText]="dataCard[3].buttonText"></app-card>
+        </div>
+        <div class="col-4">
+            <app-card [UrlImage]="dataCard[4].UrlImage" [cardTitle]="dataCard[4].cardTitle" [description]="dataCard[4].description" [buttonText]="dataCard[4].buttonText"></app-card>
+        </div>
+        <div class="col-4">
+            <app-card [UrlImage]="dataCard[5].UrlImage" [cardTitle]="dataCard[5].cardTitle" [description]="dataCard[5].description" [buttonText]="dataCard[5].buttonText"></app-card>
+        </div>
+        <div class="row">
+            <app-form></app-form>
+        </div>
+    </div>
+</div>
+
+
+<app-badges></app-badges>
+

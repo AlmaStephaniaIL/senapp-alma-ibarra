@@ -1,4 +1,64 @@
-
-<div align="center"  >
-    <img src="assets\imagenes\SENAPP (1).png" alt="Logo" >
+    <div class="card" style="width: 18rem;">
+      <img src="{{UrlImage}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{cardTitle}}</h5>
+        <p class="card-text">{{description}}</p>
+        <a href="#" class="btn btn-primary">{{buttonText}}</a>
+      <!--
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://www.geekfactory.mx/wp-content/uploads/2015/06/e18-d80nk-sensor-de-proximidad-infrarrojo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Sensor de proximidad</h5>
+                  <p class="card-text">Mide proximidades.</p>
+                  <a href="#" class="btn btn-primary">Aprender más</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Arduino uno</h5>
+                  <p class="card-text"> Conecta los componentes.</p>
+                  <a href="#" class="btn btn-primary">Aprender más</a>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+    <br><br><br>    
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="https://ipowerelectronics.com/3098-large_default/tarjeta-de-desarrollo-esp-32-modulo-wifi-y-bluetooth.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Esp 32</h5>
+                  <p class="card-text"> Conecta los componentes mediante WiFi o Bluetooth.</p>
+                  <a href="#" class="btn btn-primary">Aprender más</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIHBgkIBwgWFhUXFRYbFxcVGBAaFRcaHhYcGBUgFRsfHSggGB0lGxcYITEiJSkrLi4uHR81ODMsNygtLisBCgoKDg0OGxAPGysdHiIuNzcrMDM3Kys4LTgtLi03NDgtLS41LS0rLy43LS0tOC4rLS04Kys3NzErLSstLS8rN//AABEIAOEA4QMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAAABQYEAwIHAf/EAEEQAQABAQUBCgkJCQAAAAAAAAABAgMEBQYRIQcSEzE2QXJzsbIiNDVhY3Ghs8FCQ1FSYoGRwuEUFiMlRFOCktH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQUGAv/EACERAQACAQMFAQEAAAAAAAAAAAABAgMEEUExMjNRcRIh/9oADAMBAAIRAxEAPwD9xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB43i92d20/abxTT0qqY7SZ26j2HPd77ZXmd7d7zRVP0U1UzPsl0JExPQ33AFAAAAAAAAAAAAAAAAAAAAAAAAETM+LTh12os7vP8SvXSfqxHHPr2xEfoxEa2trNVU61TO2Z1mZnzzzrebp3+MTrzUUxHtme1FqjSrYxNZlm2SY4hn5rTNph7364Wlxqom3piJ44mJ4pifpjnanKmMVX6zrut6q1rpjWJ56qeLb54nTb54ZK3vFd4mnh7SatI0jWdVDLdXB45dtOffRPq3s/GINNm/OWIr0kxX/ADf+dG+AbbQAAAAAAAAAAAAAAAAAAAAAAAAYrNEa4xadGnsR7SNq3mWdMTt5q9Ht/wAZQra2ppmNZc7qvLb6zMnfL50U8vx/OLtOnyvy1JdNpFU+DUrZfmJxa66T8r8svOm8lfsJTuj63gDpGoAAAAAAAAAAAAAAAAAAAAAAAAxOZ/CxO8xEfU7n6pE2MVab6FHF7zNWJ3qvSdd/VTpEc1Pgx7NHJFc1VRvrCfZHxlzmp3tkmY9sjJfe07e39m7002P8N05fo3uKXXZ8r4S8redKI4K6VffVT/15XO9V3e9Wdrwek01ROmyY49OafOmCJreJn2lb7Wjd+jgOkbAAAAAAAAAAAAAAAAAAAAAAAAD5iiInWKYZnc6vE3rL1draVaz+0XiNv2bWqmPZDUMvuc0xTl2uKY/qLx72rXmQdOfbebrk/FbxZzMTRZ76JidJiYmJjSeadYVsNnfYddap57OjuwjbocRVknGYr4uBq19XOsYX5Mumn9ujuwo6gAAAAAAAAAAAAAAAAAAAAAAAAAfFrXwdlXaacUTP4Qy25pa8Jl+2piOK8W3Prx1b/wDO1VdMV0VUVRsmNJZLcss4oyrExG2bW119cVbzsphB359mP3QxOm04qqN7P3zEfFSwO14bBrjaTTprZUbPo8GE3dA0/cvGKqoidLGqrbxa0+FHthUwaziywi42dnGkRZURH+sA7AFAAAAAAAAAAAAAAAAAAAAAAAABldzSNMq2celtve1NUy25tyXo2fO23vJTleHTugRM5KxqKePgK9PwV8M8m3Tq6O7CTn6dMmYzPoa+xWw3yddero7sHKOkBQAAAAAAAAAAAAAAAAAAAAAAAAZfc35L2fWWvvJahl9zfktZdZa+8lOVdGf50yXjM6fM19ixh2zD7r1dHdhG3QeROM9TUs4f4hduhT3YOR0AKgAAAAAAAAAAAAAAAAAAAAAAAAzG5xGmWLPrLX3ktOzO51yYs+stfeSD13QuRWM9TUtXHxG79CnuwjZ+jXJuLR6Ke2Fm5eJXfoU9kJyvD3AVAAAAAAAAAAAAAAAAAAAAAAAABm9z6NMt2fWWvflpGdyFGmXLKPt2nfkH1n7kbi/VT8Fm4+JXfoU9kI+feR2LdVUsXHxK79CnsgHuAAAAAAAAAAAAAAAAAAAAAAAAAAgZGjTLtj0q+9K+hZLjTALGJ+tX3gM9Rrk/Fo9FUrXDxG79Cnuwl51jXKeKR6KpTw/bcLt0Ke7AOgAAAAAAAAAAAAAAAAAAAAAAAAABIyt5Jp6U/AAM3cm8Q6HxhQuHiN36FPdgAe4AAAAAAAAAAAAAP//Z" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Led</h5>
+                  <p class="card-text">Enciende led.</p>
+                  <a href="#" class="btn btn-primary">Aprender más</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buzzer</h5>
+                  <p class="card-text">Bocina que emite un sonido.</p>
+                  <a href="#" class="btn btn-primary">Aprender más</a>
+                </div>
+              </div>
+        </div>
+      -->
+    </div>
 </div>

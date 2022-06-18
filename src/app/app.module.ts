@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { CardComponent } from './components/card/card.component';
 import { FormComponent } from './components/form/form.component';
+import { BadgesComponent } from './components/badges/badges.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     CardComponent,
-    FormComponent
+    FormComponent,
+    BadgesComponent
   ],
   imports: [
     BrowserModule,

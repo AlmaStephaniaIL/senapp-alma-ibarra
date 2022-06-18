@@ -8,13 +8,13 @@ import { Component,Input, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
 
   @Input()
-  UrlImage: string ="";
+  UrlImg: string ="";
   @Input()
-  cardTitle: string ="Hola";
+  Title: string ="Titulo";
   @Input()
   description: string ="descripcion";
   @Input()
-  buttonText: string =" Aprender más";
+  buttonText: string ="Más";
   constructor() { }
 
   ngOnInit(): void {

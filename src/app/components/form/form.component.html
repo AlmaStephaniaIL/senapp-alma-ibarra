@@ -1,19 +1,22 @@
   <div align="center">
+  <form (ngSubmit)="addCard">
     <div class="mb-3 col-3" align="center">
-        <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Nombre:</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jesus">
+        <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Titulo</label>
+        <input name="Title" type="text" [(ngModel)]="card.Title" class="form-control" id="Title" placeholder="Ingresa el titulo">
       </div>
       <div class="mb-3 col-3" align="center">
-        <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Apellido:</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ibarra">
+        <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Descripción:</label>
+        <input name="description" type="text" [(ngModel)]="card.description"  class="form-control" id="description" placeholder="Ingresa una descripcion">
       </div>
+      <!--
       <div class="mb-3 col-3" align="center">
         <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Fecha de naciemento:</label>
         <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="00/00/00">
       </div>
+    -->
       <div class="mb-3 col-3" align="center">
-        <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Nacionalidad:</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Mexicana">
+        <label for="exampleFormControlInput1" class="form-label" style="color:rgb(0, 250, 229);">Imagen:</label>
+        <input name="UrlImg" type="text" [(ngModel)]="card.UrlImg" class="form-control" id="UrlImg" placeholder="Ingrese el URL de la imagen">
       </div>
       <div class="row">
         <div class="mb-3 col-6" style="margin: auto; text-align: center;">
@@ -21,6 +24,6 @@
           <button type="submit" class="btn btn-danger" style="margin-left: 10px;">Cancelar</button>
         </div>
        
-
-      </div>
+     </div>
+  </form>
   </div>

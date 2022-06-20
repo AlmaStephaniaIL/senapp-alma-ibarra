@@ -2,11 +2,18 @@
 <div align="center"  >
     <img src="assets\imagenes\SENAPP (1).png" alt="Logo" >
 </div>
+
+<div align="center">
+    <app-form></app-form>
+
+ </div>
+ <br><br><br>
 <div class="conteiner">
     <div class="row">
-        <div class="col-4" >
-            <app-card [Title]="dataCard[0].Title" [UrlImg]="dataCard[0].UrlImg"  [description]="dataCard[0].description" [buttonText]="dataCard[0].buttonText"></app-card>
+        <div class="col-4" *ngFor="let item of dataCard">
+            <app-card [Title]="item.Title" [UrlImg]="item.UrlImg"  [description]="item.description" [buttonText]="item.buttonText"></app-card>
         </div>
+        <!--
         <div class="col-4">
             <app-card [Title]="dataCard[1].Title" [UrlImg]="dataCard[1].UrlImg"  [description]="dataCard[1].description" [buttonText]="dataCard[1].buttonText"></app-card>
         </div>
@@ -22,15 +29,10 @@
         <div class="col-4">
             <app-card [Title]="dataCard[5].Title" [UrlImg]="dataCard[5].UrlImg" [description]="dataCard[5].description" [buttonText]="dataCard[5].buttonText"></app-card>
         </div>
-        
+    -->
     </div>
 </div>
  <br><br><br>
- <div align="center">
-    <app-form></app-form>
-
- </div>
-<br><br><br>
 
 <app-badges></app-badges>
 

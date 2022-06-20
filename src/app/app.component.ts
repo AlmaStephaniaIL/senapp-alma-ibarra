@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CardModel } from './Models/card.model';
 
 
 @Component({
@@ -8,7 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SenAppWeb';
-  dataCard: any[ ]=[
+
+  dataCard: CardModel[]=[
     {
       UrlImg:"https://www.dhresource.com/0x0/f2/albu/g5/M01/31/E4/rBVaI1nMZ0OABUG9AATvkHWc5ZY128.jpg",
       Title: "Sensor de temperatura",

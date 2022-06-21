@@ -48,4 +48,8 @@ export class AppComponent {
       buttonText:"Más"
     }
   ]
+
+  addCard(card: CardModel){ //funcion
+    this.dataCard.push(card);
+  }
 }

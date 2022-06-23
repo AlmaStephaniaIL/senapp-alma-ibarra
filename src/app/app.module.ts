@@ -8,6 +8,10 @@ import { CardComponent } from './components/card/card.component';
 import { FormComponent } from './components/form/form.component';
 import { BadgesComponent } from './components/badges/badges.component';
 import { FormsModule } from '@angular/forms';
+import { NewsComponent } from './pages/news/news.component';
+import { CardRegisterComponent } from './pages/card-register/card-register.component';
+
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -15,12 +19,15 @@ import { FormsModule } from '@angular/forms';
     NavbarComponent,
     CardComponent,
     FormComponent,
-    BadgesComponent
+    BadgesComponent,
+    NewsComponent,
+    CardRegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

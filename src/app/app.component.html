@@ -3,36 +3,22 @@
     <img src="assets\imagenes\SENAPP (1).png" alt="Logo" >
 </div>
 
-<div align="center">
-    <app-form (envioCard)="addCard($event)"></app-form>
 
- </div>
- <br><br><br>
+ <!--
 <div class="conteiner">
+    <div align="center">
+        <app-form (envioCard)="addCard($event)"></app-form>
+    
+     </div>
     <div class="row">
         <div class="col-4" *ngFor="let item of dataCard">
             <app-card [Title]="item.Title" [UrlImg]="item.UrlImg"  [description]="item.description" [buttonText]="item.buttonText"></app-card>
         </div>
-        <!--
-        <div class="col-4">
-            <app-card [Title]="dataCard[1].Title" [UrlImg]="dataCard[1].UrlImg"  [description]="dataCard[1].description" [buttonText]="dataCard[1].buttonText"></app-card>
-        </div>
-        <div class="col-4">
-            <app-card [Title]="dataCard[2].Title" [UrlImg]="dataCard[2].UrlImg"  [description]="dataCard[2].description" [buttonText]="dataCard[2].buttonText"></app-card>
-        </div>
-        <div class="col-4">
-            <app-card [Title]="dataCard[3].Title" [UrlImg]="dataCard[3].UrlImg"  [description]="dataCard[3].description" [buttonText]="dataCard[3].buttonText"></app-card>
-        </div>
-        <div class="col-4">
-            <app-card [Title]="dataCard[4].Title" [UrlImg]="dataCard[4].UrlImg"  [description]="dataCard[4].description" [buttonText]="dataCard[4].buttonText"></app-card>
-        </div>
-        <div class="col-4">
-            <app-card [Title]="dataCard[5].Title" [UrlImg]="dataCard[5].UrlImg" [description]="dataCard[5].description" [buttonText]="dataCard[5].buttonText"></app-card>
-        </div>
-    -->
     </div>
-</div>
+</div> 
  <br><br><br>
 
 <app-badges></app-badges>
+-->
 
+<router-outlet></router-outlet>

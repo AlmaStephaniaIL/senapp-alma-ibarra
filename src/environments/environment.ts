@@ -2,8 +2,11 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+// ----- aqui se ponen las constantes que utilizamos en todo el proyecto :D -----
+
 export const environment = {
-  production: false
+  production: false , 
+  urlNewsApi: "https://newsapi.org"
 };
 
 /*

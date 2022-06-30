@@ -13,9 +13,9 @@ export class NewsService {
   getNews(){
     const query ={
       q: "tesla",
-      from: "2022-05-23",
+      from: "2022-05-30",
       sortBy: "publishedAt",
-      apiKey: "5e1e7d58fef242b4b0354c949518b9f4"
+      apiKey: "ddfa111e9df3485baad24f2b6ea51498"
 
     }
     //this.url + '/v2/everything'

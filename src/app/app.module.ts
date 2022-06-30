@@ -12,6 +12,7 @@ import { NewsComponent } from './pages/news/news.component';
 import { CardRegisterComponent } from './pages/card-register/card-register.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { PokemonComponent } from './pages/pokemon/pokemon.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +22,14 @@ import {HttpClientModule} from '@angular/common/http';
     FormComponent,
     BadgesComponent,
     NewsComponent,
-    CardRegisterComponent
+    CardRegisterComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    //num6
     HttpClientModule
   ],
   providers: [],

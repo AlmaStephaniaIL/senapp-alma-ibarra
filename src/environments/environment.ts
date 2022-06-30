@@ -6,7 +6,8 @@
 
 export const environment = {
   production: false , 
-  urlNewsApi: "https://newsapi.org"
+  urlNewsApi: "https://newsapi.org",
+  urlPokemonApi: "https://pokeapi.co"
 };
 
 /*

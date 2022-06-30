@@ -6,11 +6,11 @@
 
 <div clas="row" style="width: 100%"> 
     <div class="col-md-6 col-lg-4" *ngFor="let article of articles" >
-    <app-card >
+    <app-card 
     [Title]="article.title" 
     [description]="article.description" 
     [UrlImg]="article.urlToImage"
-    [buttonText]="'Go to'  + article.author"
+    [buttonText]="'Go to'  + article.author">
     </app-card>
     </div>
 </div>

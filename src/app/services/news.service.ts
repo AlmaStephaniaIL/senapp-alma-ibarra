@@ -7,7 +7,8 @@ import { environment } from '../../environments/environment';
 })
 export class NewsService {
 
-  url = environment.urlNewsApi;
+  //url = environment.urlNewsApi;
+  url="https://newsapi.org";
   constructor(private http:HttpClient) { }
 
   getNews(){

@@ -5,7 +5,7 @@
 // ----- aqui se ponen las constantes que utilizamos en todo el proyecto :D -----
 
 export const environment = {
-  production: false , 
+  production: true , 
   urlNewsApi: "https://newsapi.org",
   urlPokemonApi: "https://pokeapi.co"
 };

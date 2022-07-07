@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true , 
+  urlNewsApi: "https://newsapi.org",
+  urlPokemonApi: "https://pokeapi.co"
 };
